@@ -14,8 +14,10 @@ function changeColor(newH1, button) {
 
     if (newH1.style.color == 'white') {
         button.style.color = 'red';
+        button.style.backgroundColor = 'white';
     } else {
         button.style.color = 'white';
+        button.style.backgroundColor = 'red';
     }
 }
 
