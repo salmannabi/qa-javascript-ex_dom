@@ -32,4 +32,6 @@ theNewH1.style.color = 'white';
 let button = document.querySelector('#btn');
 button.style.padding = '12px';
 button.style.color = 'red';
+button.style.display = 'block';
+button.style.margin = '0 auto';
 button.onclick = function() {changeColor(theNewH1, button)};
